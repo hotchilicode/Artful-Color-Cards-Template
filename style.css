@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.cards {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 100px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.card-img {
+    background-color: black;
+    height: 320px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    border: #eff2e3 5px solid;
+
+}
+
+
+.cards h2 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.cards p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
+
+.card1 {
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmtjMmFid213ZHYwOGppaDFpdTdsdGpwb2NwdTZoOHpodW5yd2o1diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tVMT2gyDLIMzD41oL4/giphy.gif);
+}
+
+.card2 {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/649/200/63/digital-art-artwork-abstract-wallpaper-thumb.jpg);
+}
+
+.card3 {
+    background-image: url(https://i.pinimg.com/originals/af/bf/43/afbf43556857852a8f6d504420232412.gif);
+}
+
+.card4 {
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenBjc2Ztd2FnOXJkZWs0dmMwNTR2MGVjMnBqOHIwaWlsYTR4Y3lqbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0JXhP33IC7yynHz7yI/giphy.gif);
+}   
+
+.card5 {
+    background-image: url(https://img.freepik.com/premium-photo/colorful-abstract-background_80983-1494.jpg);
+}
+
+.card6 {
+    background-image: url(https://wallsdesk.com/wp-content/uploads/2016/08/White-Abstract-Wallpaper.jpg);
+}
+
+.cards a {
+    height: 15px;
+    width: 15px;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding: 15px 20px;
+    display: white;
+    text-align: center;
+    margin: 90px;
+    border: #c6f7da 5px solid;
+    border-radius: 15%;
+
+}
+
+.cards:hover {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: rgb(198, 233, 115);
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cards a:hover {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: rgb(198, 233, 115);
+    cursor: pointer;
+
+}
